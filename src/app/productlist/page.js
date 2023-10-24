@@ -6,15 +6,9 @@ async function ProductList(){
 }
 
 export default async function Product(){
-    let products = await ProductList();
-    console.log(products);
     return(
         <div>
-            {
-                products.map((item)=>(
-                    <h3>{item.title}</h3>
-                ))
-            }
+            <p>Hello</p>
         </div>
     )
 }
