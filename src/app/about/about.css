@@ -1,0 +1,11 @@
+.nav-menu{
+    display: flex;
+    padding: 16px 30px;
+    background-color: azure;
+}
+.nav-menu li{
+    list-style: none;
+    padding: 15px;
+    font-weight: 500;
+    font-size: larger;
+}
